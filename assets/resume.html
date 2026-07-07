@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html class="dark scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mikhail Savushkin — AI Solutions Integrator</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;700&family=Unbounded:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          bg: "oklch(15% 0.01 20)",
+          surface: "oklch(22% 0.01 20)",
+          ink: "oklch(95% 0.01 40)",
+          muted: "oklch(70% 0.01 40)",
+          line: "oklch(30% 0.01 20)",
+          amber: "oklch(78% 0.13 85)",
+          teal: "oklch(75% 0.08 190)",
+          "on-surface": "#e5e2e1",
+          "on-surface-variant": "#d4c5ab",
+          "surface-container-lowest": "#0e0e0e",
+        },
+        spacing: {
+          "item-gap": "24px",
+          "section-gap": "64px",
+          "gutter": "32px",
+          "container-max": "900px",
+          "rail-width": "180px",
+        },
+        fontFamily: {
+          "body-md": ["Manrope"],
+          "display-name": ["Unbounded"],
+          "body-lg": ["Manrope"],
+          "meta-mono": ["JetBrains Mono"],
+          "headline-section": ["Unbounded"],
+          "label-caps": ["JetBrains Mono"],
+        },
+        fontSize: {
+          "body-md": ["14px", { lineHeight: "1.6", fontWeight: "400" }],
+          "display-name": ["36px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700" }],
+          "body-lg": ["16px", { lineHeight: "1.6", fontWeight: "400" }],
+          "meta-mono": ["11px", { lineHeight: "1.4", letterSpacing: "0.05em", fontWeight: "500" }],
+          "headline-section": ["20px", { lineHeight: "1.2", fontWeight: "400" }],
+          "label-caps": ["10px", { lineHeight: "1", letterSpacing: "0.1em", fontWeight: "700" }],
+        },
+      },
+    },
+  }
+</script>
+<style>
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body class="bg-bg text-on-surface font-body-md text-body-md min-h-screen flex flex-col">
+
+<!-- Canvas Background -->
+<canvas class="fixed inset-0 w-full h-full pointer-events-none z-[-1] opacity-40" id="tech-canvas"></canvas>
+
+<main class="flex-grow w-full">
+  <!-- Page 1 -->
+  <div class="max-w-container-max mx-auto px-gutter pt-12 min-h-screen flex flex-col">
+    <!-- Hero Section -->
+  <section class="flex flex-row gap-gutter items-start justify-between mb-section-gap">
+    <div class="flex-1 space-y-5 max-w-2xl">
+      <div class="space-y-2">
+        <h1 class="font-display-name text-display-name text-on-surface tracking-tight">Mikhail Savushkin</h1>
+        <div class="font-meta-mono text-meta-mono text-amber text-sm">AI Solutions Integrator · Backend & Automation Engineer</div>
+      </div>
+      <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+        I don't just write code — I build data-driven systems that kill real bottlenecks. Backend and Automation Engineer with a Data Science background from Yandex.
+      </p>
+      <div class="flex items-center gap-4 font-meta-mono text-meta-mono text-muted pt-2">
+        <div class="flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-[14px]">location_on</span>
+          Istanbul, Türkiye
+        </div>
+        <span class="text-line">|</span>
+        <div class="flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-[14px]">mail</span>
+          savushkinwork@gmail.com
+        </div>
+        <span class="text-line">|</span>
+        <div class="flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-[14px]">link</span>
+          linkedin.com/in/mikhail-savushkin
+        </div>
+      </div>
+      <div class="flex items-center gap-3 font-meta-mono text-meta-mono text-muted pt-1">
+        <div class="flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-[14px]">target</span>
+          <span class="text-on-surface-variant">Current focus:</span>
+          LLM integrations, webhooks, backend automation
+        </div>
+      </div>
+    </div>
+    <div class="relative w-36 h-36 shrink-0 rounded border border-line bg-surface overflow-hidden">
+      <img class="w-full h-full object-cover opacity-90" src="mikhail-savushkin-profile.jpg" alt="Mikhail Savushkin"/>
+      <div class="absolute top-0 left-0 w-2 h-2 border-t border-l border-amber"></div>
+      <div class="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-amber"></div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="mb-12">
+    <h2 class="font-headline-section text-headline-section text-on-surface mb-5">Experience</h2>
+    <div class="space-y-5">
+
+      <!-- Entry 1 -->
+      <div class="border-l-2 border-amber pl-5">
+        <div class="flex items-baseline justify-between gap-4">
+          <h3 class="font-body-lg text-body-lg font-bold text-on-surface">Backend Engineer (AI & Automation)</h3>
+          <span class="font-meta-mono text-meta-mono text-muted whitespace-nowrap">May 2026 — Present</span>
+        </div>
+        <div class="font-meta-mono text-meta-mono text-amber mt-0.5 mb-2">International Plus / Power International · Istanbul</div>
+        <ul class="space-y-1 font-body-md text-body-md text-on-surface-variant list-none">
+          <li class="flex items-start gap-2"><span class="text-line mt-0.5">›</span><span>Architected and implemented an AI-driven QA agent for WhatsApp sales.</span></li>
+          <li class="flex items-start gap-2"><span class="text-line mt-0.5">›</span><span>Integrated LLMs with messaging platforms via webhooks to automate sales analysis.</span></li>
+        </ul>
+      </div>
+
+      <!-- Entry 2 -->
+      <div class="border-l border-line pl-5">
+        <div class="flex items-baseline justify-between gap-4">
+          <h3 class="font-body-lg text-body-lg font-bold text-on-surface">Medical Advisor</h3>
+          <span class="font-meta-mono text-meta-mono text-muted whitespace-nowrap">Dec 2025 — May 2026</span>
+        </div>
+        <div class="font-meta-mono text-meta-mono text-muted mt-0.5 mb-2">International Plus · Istanbul</div>
+        <ul class="space-y-1 font-body-md text-body-md text-on-surface-variant list-none">
+          <li class="flex items-start gap-2"><span class="text-line mt-0.5">›</span><span>Managed CRM workflows and client interactions across live sales processes.</span></li>
+          <li class="flex items-start gap-2"><span class="text-line mt-0.5">›</span><span>Turned operational knowledge into sharper requirements for AI-driven QA bots.</span></li>
+        </ul>
+      </div>
+
+      <!-- Entry 3 -->
+      <div class="border-l border-line pl-5">
+        <div class="flex items-baseline justify-between gap-4">
+          <h3 class="font-body-lg text-body-lg font-bold text-on-surface">Data Scientist</h3>
+          <span class="font-meta-mono text-meta-mono text-muted whitespace-nowrap">Sep 2022 — Sep 2023</span>
+        </div>
+        <div class="font-meta-mono text-meta-mono text-muted mt-0.5 mb-2">Yandex · Moscow</div>
+        <ul class="space-y-1 font-body-md text-body-md text-on-surface-variant list-none">
+          <li class="flex items-start gap-2"><span class="text-line mt-0.5">›</span><span>Built and maintained data pipelines for cleaning large-scale datasets.</span></li>
+          <li class="flex items-start gap-2"><span class="text-line mt-0.5">›</span><span>Developed analytical models that surfaced insights for business decisions.</span></li>
+          <li class="flex items-start gap-2"><span class="text-line mt-0.5">›</span><span>Cross-functional delivery. Stack: Python, Pandas, SQL, data visualization.</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+  </div> <!-- End Page 1 -->
+
+  <!-- Page 2 -->
+  <div class="min-h-screen flex flex-col" style="page-break-before: always;">
+    <div class="max-w-container-max mx-auto px-gutter pt-12 pb-8 flex-grow w-full">
+      <!-- Skills Section -->
+      <section class="mb-12">
+    <div class="grid grid-cols-[var(--rail-width)_1fr] gap-x-10 gap-y-6">
+      <div class="col-span-1">
+        <h2 class="font-headline-section text-headline-section text-on-surface">Skills</h2>
+      </div>
+      <div class="col-span-1 space-y-6">
+        <!-- Languages -->
+        <div class="space-y-3">
+          <div class="font-label-caps text-label-caps text-muted border-b border-line pb-2 uppercase">Languages</div>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-amber px-3 py-1.5 rounded">Python</span>
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">Node.js</span>
+          </div>
+        </div>
+        <!-- AI / ML -->
+        <div class="space-y-3">
+          <div class="font-label-caps text-label-caps text-muted border-b border-line pb-2 uppercase">AI / ML</div>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-amber px-3 py-1.5 rounded">LLM APIs</span>
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">AI agents</span>
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">ML tooling</span>
+          </div>
+        </div>
+        <!-- Cloud -->
+        <div class="space-y-3">
+          <div class="font-label-caps text-label-caps text-muted border-b border-line pb-2 uppercase">Cloud</div>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">AWS</span>
+          </div>
+        </div>
+        <!-- Data -->
+        <div class="space-y-3">
+          <div class="font-label-caps text-label-caps text-muted border-b border-line pb-2 uppercase">Data</div>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">Pandas</span>
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">SQL</span>
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">Data visualization</span>
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">Data pipelines</span>
+          </div>
+        </div>
+        <!-- APIs -->
+        <div class="space-y-3">
+          <div class="font-label-caps text-label-caps text-muted border-b border-line pb-2 uppercase">APIs / Automation</div>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">REST APIs</span>
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">Webhooks</span>
+            <span class="bg-surface border border-line font-meta-mono text-meta-mono text-on-surface px-3 py-1.5 rounded">Workflow automation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="mb-section-gap">
+    <div class="grid grid-cols-[var(--rail-width)_1fr] gap-x-10 gap-y-6">
+      <div class="col-span-1">
+        <h2 class="font-headline-section text-headline-section text-on-surface">Education</h2>
+      </div>
+      <div class="col-span-1">
+        <div class="bg-surface border border-line p-5 rounded">
+          <h3 class="font-body-lg text-body-lg font-bold text-on-surface mb-0.5">Istanbul Topkapı University</h3>
+          <div class="font-meta-mono text-meta-mono text-amber mb-2">B.Eng., Computer Engineering</div>
+          <div class="font-meta-mono text-meta-mono text-muted">Oct 2023 — Aug 2028 · <span class="text-teal">in progress</span></div>
+        </div>
+      </div>
+    </div>
+      </section>
+    </div> <!-- End Page 2 Inner -->
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-lowest text-on-surface font-meta-mono text-meta-mono w-full border-t border-line mt-auto">
+      <div class="flex flex-row justify-between items-center px-gutter py-8 max-w-container-max mx-auto">
+        <div class="font-display-name text-headline-section text-on-surface">MS</div>
+        <div class="text-muted text-center flex-1 ml-8">© 2026 Mikhail Savushkin</div>
+        <div class="flex gap-6">
+          <span class="text-muted">savushkinwork@gmail.com</span>
+          <span class="text-muted">linkedin.com/in/mikhail-savushkin</span>
+        </div>
+      </div>
+    </footer>
+  </div> <!-- End Page 2 -->
+</main>
+
+<!-- Canvas Script -->
+<script>
+  const canvas = document.getElementById('tech-canvas');
+  const ctx = canvas.getContext('2d');
+  let width, height;
+  let particles = [];
+
+  function resize() {
+    width = canvas.width = window.innerWidth;
+    height = canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  class Particle {
+    constructor() {
+      this.x = Math.random() * width;
+      this.y = Math.random() * height;
+      this.vx = (Math.random() - 0.5) * 0.3;
+      this.vy = (Math.random() - 0.5) * 0.3;
+    }
+    update() {
+      this.x += this.vx;
+      this.y += this.vy;
+      if (this.x < 0 || this.x > width) this.vx *= -1;
+      if (this.y < 0 || this.y > height) this.vy *= -1;
+    }
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, 1.5, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(156, 143, 120, 0.15)';
+      ctx.fill();
+    }
+  }
+
+  for (let i = 0; i < 40; i++) particles.push(new Particle());
+
+  function animate() {
+    ctx.clearRect(0, 0, width, height);
+    for (let i = 0; i < particles.length; i++) {
+      particles[i].update();
+      particles[i].draw();
+      for (let j = i; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 150) {
+          ctx.beginPath();
+          ctx.strokeStyle = `rgba(156, 143, 120, ${0.08 - dist/2000})`;
+          ctx.lineWidth = 0.5;
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(animate);
+  }
+  animate();
+</script>
+
+</body>
+</html>
