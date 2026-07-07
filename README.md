@@ -21,6 +21,7 @@
 - 💡 I enjoy working on whatever catches my interest and I'm not afraid to experiment
 - 🎯 Currently diving deep into **QA Engineering** to improve software quality
 - 🔧 Daily driver: **VS Code**
+- 📄 Check out my **[Resume](https://m4rkellkka.github.io/resume/)**
 
 ---
 
