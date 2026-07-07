@@ -1,5 +1,4 @@
 from pathlib import Path
-from textwrap import wrap
 
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from reportlab.lib import colors
@@ -22,6 +21,10 @@ FONT_REGULAR = ASSETS / "fonts" / "Manrope-Regular.ttf"
 FONT_BOLD = ASSETS / "fonts" / "Manrope-Bold.ttf"
 FONT_DISPLAY = ASSETS / "fonts" / "Unbounded-Bold.ttf"
 FONT_MONO = ASSETS / "fonts" / "JetBrainsMono-Regular.ttf"
+
+# Canonical source for generated deploy assets:
+# - assets/mikhail-savushkin-resume.pdf
+# - assets/mikhail-savushkin-social-preview.png
 
 
 RESUME = {
