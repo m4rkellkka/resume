@@ -1,0 +1,2066 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mikhail Savushkin — AI Solutions Integrator</title>
+    <meta
+      name="description"
+      content="Resume website for Mikhail Savushkin, AI Solutions Integrator, Backend and Automation Engineer based in Istanbul."
+    />
+    <meta property="og:title" content="Mikhail Savushkin — AI Solutions Integrator" />
+    <meta
+      property="og:description"
+      content="Backend, automation, and AI integration work grounded in a data science background at Yandex."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0b0b0d" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230b0b0d'/%3E%3Cpath d='M10 48V16h8l14 19 14-19h8v32h-8V29L34 46h-4L18 29v19z' fill='%23f0642f'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: oklch(0.085 0 0);
+        --bg-raised: oklch(0.115 0.003 70);
+        --surface: oklch(0.155 0.006 70);
+        --surface-strong: oklch(0.205 0.008 70);
+        --ink: oklch(0.925 0.014 78);
+        --ink-strong: oklch(0.985 0.005 78);
+        --muted: oklch(0.705 0.018 72);
+        --muted-soft: oklch(0.575 0.014 72);
+        --line: oklch(1 0 0 / 0.08);
+        --line-strong: oklch(1 0 0 / 0.16);
+        --primary: oklch(0.645 0.185 39);
+        --primary-deep: oklch(0.48 0.17 35);
+        --amber: oklch(0.755 0.145 72);
+        --teal: oklch(0.76 0.105 190);
+        --teal-deep: oklch(0.54 0.095 195);
+        --shadow: oklch(0 0 0 / 0.42);
+        --max: 1180px;
+        --pad: 24px;
+        --radius: 8px;
+        --font-display: "Unbounded", "Manrope", system-ui, sans-serif;
+        --font-body: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+        --h1: 5rem;
+        --h2: 2.6rem;
+        --h3: 1.35rem;
+      }
+
+      @media (min-width: 1180px) {
+        :root {
+          --h1: 5.8rem;
+          --h2: 3rem;
+          --pad: 32px;
+        }
+      }
+
+      @media (max-width: 760px) {
+        :root {
+          --h1: 3.25rem;
+          --h2: 2.1rem;
+          --h3: 1.18rem;
+          --pad: 18px;
+        }
+      }
+
+      @media (max-width: 420px) {
+        :root {
+          --h1: 2.48rem;
+          --h2: 1.78rem;
+        }
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        background: var(--bg);
+      }
+
+      body {
+        min-width: 320px;
+        margin: 0;
+        overflow-x: hidden;
+        background:
+          linear-gradient(180deg, oklch(0.12 0.004 70 / 0.88), transparent 540px),
+          var(--bg);
+        color: var(--ink);
+        font-family: var(--font-body);
+        font-size: 16px;
+        line-height: 1.72;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      body::before {
+        position: fixed;
+        inset: 0;
+        z-index: -3;
+        pointer-events: none;
+        content: "";
+        opacity: 0.13;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)' opacity='0.45'/%3E%3C/svg%3E");
+        mix-blend-mode: screen;
+      }
+
+      body::after {
+        position: fixed;
+        inset: 0;
+        z-index: -2;
+        pointer-events: none;
+        content: "";
+        background:
+          linear-gradient(90deg, oklch(1 0 0 / 0.035) 1px, transparent 1px),
+          linear-gradient(180deg, oklch(1 0 0 / 0.025) 1px, transparent 1px);
+        background-size: 72px 72px;
+        mask-image: linear-gradient(180deg, black 0, transparent 76%);
+        opacity: 0.32;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: var(--teal);
+      }
+
+      button,
+      a {
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      button {
+        font: inherit;
+      }
+
+      :focus-visible {
+        outline: 2px solid var(--teal);
+        outline-offset: 4px;
+      }
+
+      ::selection {
+        background: oklch(0.63 0.18 39 / 0.42);
+        color: var(--ink-strong);
+      }
+
+      .site-header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 20;
+        border-bottom: 1px solid transparent;
+        background: oklch(0.085 0 0 / 0.78);
+        transition:
+          border-color 180ms ease,
+          background 180ms ease,
+          transform 180ms ease;
+      }
+
+      .site-header.is-scrolled {
+        border-color: var(--line);
+        background: oklch(0.095 0 0 / 0.97);
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: min(100%, var(--max));
+        min-height: 76px;
+        margin: 0 auto;
+        padding: 0 var(--pad);
+        gap: 18px;
+      }
+
+      .brand-mark {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border: 1px solid var(--line-strong);
+        border-radius: var(--radius);
+        background: linear-gradient(145deg, var(--surface), oklch(0.095 0 0));
+        color: var(--ink-strong);
+        font-family: var(--font-display);
+        font-size: 0.72rem;
+        font-weight: 700;
+        line-height: 1;
+        box-shadow: 0 18px 45px var(--shadow);
+      }
+
+      .nav-links,
+      .nav-actions,
+      .lang-toggle {
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-links {
+        gap: 3px;
+        margin-left: auto;
+      }
+
+      .nav-links a {
+        display: inline-flex;
+        min-height: 40px;
+        align-items: center;
+        padding: 0 11px;
+        border-radius: var(--radius);
+        color: var(--muted);
+        font-size: 0.9rem;
+        font-weight: 700;
+        transition:
+          color 160ms ease,
+          background 160ms ease;
+      }
+
+      .nav-links a:hover,
+      .nav-links a:focus-visible {
+        background: oklch(1 0 0 / 0.045);
+        color: var(--ink);
+      }
+
+      .nav-actions {
+        gap: 10px;
+      }
+
+      .lang-toggle {
+        min-height: 40px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--bg-raised);
+      }
+
+      .lang-toggle button {
+        min-width: 44px;
+        min-height: 40px;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        color: var(--muted);
+        cursor: pointer;
+        font-family: var(--font-mono);
+        font-size: 0.78rem;
+        font-weight: 600;
+        transition:
+          background 160ms ease,
+          color 160ms ease;
+      }
+
+      .lang-toggle button[aria-pressed="true"] {
+        background: var(--surface-strong);
+        color: var(--ink-strong);
+      }
+
+      .download-button,
+      .button-link,
+      .text-link {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        border-radius: var(--radius);
+        font-weight: 800;
+        line-height: 1;
+        transition:
+          border-color 180ms ease,
+          color 180ms ease,
+          background 180ms ease,
+          transform 180ms ease;
+      }
+
+      .download-button {
+        gap: 8px;
+        flex: 0 0 auto;
+        padding: 0 14px;
+        border: 1px solid var(--line-strong);
+        background: var(--surface);
+        color: var(--ink);
+        cursor: pointer;
+        font-size: 0.86rem;
+        white-space: nowrap;
+      }
+
+      .download-button .mono {
+        color: var(--amber);
+        font-size: 0.7rem;
+      }
+
+      .download-button:hover {
+        border-color: oklch(0.76 0.145 72 / 0.55);
+        background: var(--surface-strong);
+      }
+
+      .page {
+        position: relative;
+        isolation: isolate;
+      }
+
+      .signal-canvas {
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        opacity: 0.88;
+      }
+
+      .hero {
+        position: relative;
+        display: grid;
+        min-height: 86svh;
+        align-items: center;
+        padding: 132px var(--pad) 70px;
+      }
+
+      .hero-inner,
+      .section-inner,
+      .footer-inner {
+        position: relative;
+        z-index: 1;
+        width: min(100%, var(--max));
+        margin: 0 auto;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(240px, 340px);
+        gap: 46px;
+        align-items: end;
+      }
+
+      .hero-copy {
+        max-width: 880px;
+      }
+
+      .availability {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        min-height: 34px;
+        margin-bottom: 22px;
+        padding: 0 12px;
+        border: 1px solid oklch(0.76 0.145 72 / 0.24);
+        border-radius: var(--radius);
+        background: oklch(0.755 0.145 72 / 0.08);
+        color: var(--ink);
+        font-family: var(--font-mono);
+        font-size: 0.78rem;
+      }
+
+      .availability::before {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--amber);
+        box-shadow: 0 0 18px oklch(0.755 0.145 72 / 0.7);
+        content: "";
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: var(--ink-strong);
+        font-family: var(--font-display);
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 1.04;
+        text-wrap: balance;
+      }
+
+      h1 {
+        max-width: 10ch;
+        font-size: var(--h1);
+      }
+
+      h2 {
+        font-size: var(--h2);
+      }
+
+      h3 {
+        font-size: var(--h3);
+        line-height: 1.22;
+      }
+
+      .hero-role {
+        min-height: 1.6em;
+        margin-top: 24px;
+        color: var(--amber);
+        font-family: var(--font-mono);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.6;
+      }
+
+      .hero-role .char {
+        display: inline-block;
+        opacity: 0;
+        transform: translateY(12px);
+        animation: char-rise 560ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        animation-delay: calc(var(--i) * 13ms);
+      }
+
+      .hero-role .word {
+        display: inline-block;
+        white-space: nowrap;
+      }
+
+      .hero-summary {
+        max-width: 68ch;
+        margin-top: 28px;
+        color: var(--ink);
+        font-size: 1.2rem;
+        line-height: 1.76;
+        text-wrap: pretty;
+      }
+
+      .proof-line {
+        max-width: 62ch;
+        margin-top: 18px;
+        color: var(--muted);
+        font-size: 1rem;
+        text-wrap: pretty;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 34px;
+      }
+
+      .mobile-portrait {
+        display: none;
+      }
+
+      .button-link {
+        min-width: 138px;
+        padding: 0 18px;
+        border: 1px solid var(--line-strong);
+        background: var(--surface);
+        color: var(--ink);
+      }
+
+      .button-link.primary {
+        border-color: oklch(0.755 0.145 72 / 0.32);
+        background: linear-gradient(135deg, var(--primary-deep), oklch(0.52 0.155 66));
+        color: var(--ink-strong);
+        box-shadow:
+          0 20px 54px oklch(0.48 0.17 35 / 0.28),
+          inset 0 1px 0 oklch(1 0 0 / 0.22);
+      }
+
+      .button-link:hover {
+        border-color: oklch(0.76 0.105 190 / 0.44);
+        background: var(--surface-strong);
+        color: var(--ink-strong);
+        transform: translateY(-1px);
+      }
+
+      .button-link.primary:hover {
+        border-color: oklch(0.755 0.145 72 / 0.48);
+        background: linear-gradient(135deg, oklch(0.5 0.18 35), oklch(0.52 0.16 66));
+      }
+
+      .hero-aside {
+        display: grid;
+        gap: 18px;
+        align-self: end;
+      }
+
+      .portrait-card {
+        position: relative;
+        aspect-ratio: 4 / 5;
+        margin: 0;
+        overflow: hidden;
+        border: 1px solid var(--line-strong);
+        border-radius: var(--radius);
+        background: var(--surface);
+        box-shadow:
+          0 30px 90px oklch(0 0 0 / 0.48),
+          0 0 54px oklch(0.645 0.185 39 / 0.14);
+      }
+
+      .portrait-card::before,
+      .portrait-card::after {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        content: "";
+      }
+
+      .portrait-card::before {
+        z-index: 2;
+        border: 1px solid oklch(0.755 0.145 72 / 0.2);
+        border-radius: inherit;
+      }
+
+      .portrait-card::after {
+        z-index: 1;
+        background:
+          linear-gradient(180deg, transparent 38%, oklch(0.085 0 0 / 0.78) 100%),
+          radial-gradient(circle at 62% 38%, oklch(0.755 0.145 72 / 0.18), transparent 36%);
+      }
+
+      .portrait-card img,
+      .mobile-portrait img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 36%;
+        filter: saturate(0.92) contrast(1.06) brightness(0.9);
+      }
+
+      .portrait-card img {
+        transform: scale(1.02);
+        transition:
+          filter 260ms ease,
+          transform 520ms cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .portrait-card:hover img {
+        filter: saturate(1.03) contrast(1.08) brightness(0.98);
+        transform: scale(1.055);
+      }
+
+      .portrait-caption {
+        position: absolute;
+        right: 15px;
+        bottom: 14px;
+        left: 15px;
+        z-index: 3;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 14px;
+        border-top: 1px solid oklch(1 0 0 / 0.16);
+        padding-top: 12px;
+      }
+
+      .portrait-caption span,
+      .mobile-portrait span {
+        display: block;
+        color: var(--amber);
+        font-family: var(--font-mono);
+        font-size: 0.72rem;
+        line-height: 1.4;
+      }
+
+      .portrait-caption strong,
+      .mobile-portrait strong {
+        display: block;
+        color: var(--ink-strong);
+        font-size: 0.9rem;
+        line-height: 1.35;
+      }
+
+      .meta-list {
+        display: grid;
+        gap: 18px;
+        margin: 0;
+        border-top: 1px solid var(--line-strong);
+        padding-top: 18px;
+      }
+
+      .meta-row {
+        display: grid;
+        gap: 4px;
+      }
+
+      .meta-row dt,
+      .section-kicker,
+      .mono {
+        font-family: var(--font-mono);
+        letter-spacing: 0;
+      }
+
+      .meta-row dt {
+        color: var(--muted-soft);
+        font-size: 0.74rem;
+      }
+
+      .meta-row dd {
+        margin: 0;
+        color: var(--ink);
+        font-weight: 700;
+      }
+
+      .scroll-cue {
+        position: absolute;
+        bottom: 22px;
+        left: 50%;
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        color: var(--muted-soft);
+        font-family: var(--font-mono);
+        font-size: 0.74rem;
+        transform: translateX(-50%);
+      }
+
+      .scroll-cue::after {
+        width: 54px;
+        height: 1px;
+        background: linear-gradient(90deg, var(--amber), transparent);
+        content: "";
+      }
+
+      .section {
+        padding: 92px var(--pad);
+      }
+
+      .section-inner {
+        display: grid;
+        grid-template-columns: 210px minmax(0, 1fr);
+        gap: 56px;
+        border-top: 1px solid var(--line);
+        padding-top: 30px;
+      }
+
+      .section-kicker {
+        position: sticky;
+        top: 104px;
+        display: inline-flex;
+        gap: 10px;
+        align-self: start;
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+
+      .section-kicker span:first-child {
+        color: var(--amber);
+      }
+
+      .section-body {
+        min-width: 0;
+      }
+
+      .section-lede {
+        max-width: 72ch;
+        margin-top: 22px;
+        color: var(--ink);
+        font-size: 1.1rem;
+        line-height: 1.82;
+        text-wrap: pretty;
+      }
+
+      .proof-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 34px;
+      }
+
+      .proof-chip {
+        min-height: 106px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background:
+          linear-gradient(180deg, oklch(1 0 0 / 0.035), transparent),
+          var(--surface);
+      }
+
+      .proof-chip strong {
+        display: block;
+        color: var(--ink-strong);
+        font-family: var(--font-display);
+        font-size: 1rem;
+        line-height: 1.32;
+      }
+
+      .proof-chip span {
+        display: block;
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 0.92rem;
+        line-height: 1.5;
+      }
+
+      .timeline {
+        position: relative;
+        display: grid;
+        gap: 0;
+        margin-top: 34px;
+      }
+
+      .timeline::before {
+        position: absolute;
+        top: 8px;
+        bottom: 8px;
+        left: 8px;
+        width: 1px;
+        background: linear-gradient(180deg, var(--amber), var(--line), transparent);
+        content: "";
+      }
+
+      .timeline-item {
+        position: relative;
+        display: grid;
+        grid-template-columns: 176px minmax(0, 1fr);
+        gap: 34px;
+        padding: 0 0 40px 36px;
+      }
+
+      .timeline-item:last-child {
+        padding-bottom: 0;
+      }
+
+      .timeline-node {
+        position: absolute;
+        top: 6px;
+        left: 2px;
+        width: 13px;
+        height: 13px;
+        border: 1px solid oklch(0.755 0.145 72 / 0.5);
+        border-radius: 50%;
+        background: var(--bg);
+        box-shadow: 0 0 0 5px var(--bg);
+        transition:
+          background 220ms ease,
+          box-shadow 220ms ease,
+          border-color 220ms ease;
+      }
+
+      .timeline-item.is-active .timeline-node {
+        border-color: var(--amber);
+        background: var(--amber);
+        box-shadow:
+          0 0 0 5px var(--bg),
+          0 0 28px oklch(0.755 0.145 72 / 0.72);
+      }
+
+      .timeline-date {
+        color: var(--muted);
+        font-family: var(--font-mono);
+        font-size: 0.78rem;
+        line-height: 1.6;
+      }
+
+      .timeline-card {
+        padding-bottom: 30px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .timeline-item:last-child .timeline-card {
+        padding-bottom: 0;
+        border-bottom: 0;
+      }
+
+      .timeline-org {
+        display: block;
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 0.95rem;
+        font-weight: 700;
+      }
+
+      .timeline-list {
+        display: grid;
+        gap: 11px;
+        margin: 18px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .timeline-list li {
+        position: relative;
+        padding-left: 18px;
+        color: var(--ink);
+        text-wrap: pretty;
+      }
+
+      .timeline-list li::before {
+        position: absolute;
+        top: 0.78em;
+        left: 0;
+        width: 6px;
+        height: 1px;
+        background: var(--primary);
+        content: "";
+      }
+
+      .skill-lanes {
+        display: grid;
+        gap: 14px;
+        margin-top: 34px;
+      }
+
+      .skill-lane {
+        display: grid;
+        grid-template-columns: 172px minmax(0, 1fr);
+        gap: 20px;
+        align-items: start;
+        padding: 18px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .skill-lane:last-child {
+        border-bottom: 1px solid var(--line);
+      }
+
+      .skill-lane h3 {
+        color: var(--ink);
+        font-family: var(--font-mono);
+        font-size: 0.84rem;
+        font-weight: 600;
+        line-height: 1.5;
+      }
+
+      .skill-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .skill-tag {
+        display: inline-flex;
+        align-items: center;
+        min-height: 34px;
+        padding: 0 11px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: oklch(1 0 0 / 0.025);
+        color: var(--ink);
+        font-size: 0.92rem;
+        font-weight: 700;
+      }
+
+      .education-panel,
+      .contact-panel {
+        margin-top: 32px;
+        border-top: 1px solid var(--line-strong);
+        padding-top: 24px;
+      }
+
+      .education-panel p {
+        max-width: 68ch;
+        color: var(--muted);
+        font-size: 1.08rem;
+      }
+
+      .education-panel strong {
+        color: var(--ink-strong);
+      }
+
+      .contact-panel {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 30px;
+        align-items: end;
+      }
+
+      .contact-line {
+        max-width: 60ch;
+        color: var(--ink);
+        font-size: 1.2rem;
+        line-height: 1.75;
+        text-wrap: balance;
+      }
+
+      .contact-actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 10px;
+      }
+
+      .text-link {
+        min-height: 42px;
+        padding: 0 13px;
+        border: 1px solid var(--line);
+        background: transparent;
+        color: var(--ink);
+        font-size: 0.94rem;
+      }
+
+      .text-link:hover {
+        border-color: oklch(0.76 0.105 190 / 0.46);
+        background: oklch(0.76 0.105 190 / 0.055);
+        color: var(--teal);
+      }
+
+      .site-footer {
+        position: relative;
+        z-index: 1;
+        padding: 30px var(--pad) 46px;
+      }
+
+      .footer-inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+        border-top: 1px solid var(--line);
+        padding-top: 24px;
+        color: var(--muted-soft);
+        font-family: var(--font-mono);
+        font-size: 0.75rem;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+
+      .motion-ready .reveal {
+        opacity: 0.72;
+        filter: blur(2px);
+        transform: translateY(18px);
+        transition:
+          opacity 680ms cubic-bezier(0.16, 1, 0.3, 1),
+          filter 680ms cubic-bezier(0.16, 1, 0.3, 1),
+          transform 680ms cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .motion-ready .reveal.is-visible {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+      }
+
+      @keyframes char-rise {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (max-width: 960px) {
+        .hero-grid {
+          grid-template-columns: 1fr;
+          gap: 36px;
+        }
+
+        .hero-aside {
+          max-width: 520px;
+        }
+
+        .section-inner {
+          grid-template-columns: 150px minmax(0, 1fr);
+          gap: 34px;
+        }
+
+        .proof-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .contact-panel {
+          grid-template-columns: 1fr;
+          align-items: start;
+        }
+
+        .contact-actions {
+          justify-content: flex-start;
+        }
+      }
+
+      @media (max-width: 860px) {
+        .nav-links,
+        .hero-aside {
+          display: none;
+        }
+
+        .mobile-portrait {
+          display: flex;
+          max-width: 430px;
+          align-items: center;
+          gap: 14px;
+          margin-top: 24px;
+          padding: 10px;
+          border: 1px solid var(--line-strong);
+          border-radius: var(--radius);
+          background: linear-gradient(135deg, oklch(1 0 0 / 0.04), oklch(1 0 0 / 0.015));
+        }
+
+        .mobile-portrait img {
+          width: 84px;
+          height: 104px;
+          flex: 0 0 auto;
+          border-radius: 6px;
+        }
+      }
+
+      @media (max-width: 760px) {
+        body {
+          font-size: 15px;
+        }
+
+        .nav {
+          min-height: 66px;
+        }
+
+        .brand-mark {
+          width: 38px;
+          height: 38px;
+        }
+
+        .download-button {
+          min-width: 42px;
+          padding: 0 11px;
+        }
+
+        .download-button span:not(.mono) {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+        }
+
+        .hero {
+          min-height: auto;
+          align-items: start;
+          padding-top: 88px;
+          padding-bottom: 42px;
+        }
+
+        .availability {
+          margin-bottom: 18px;
+        }
+
+        h1 {
+          max-width: 8.4ch;
+        }
+
+        .hero-role {
+          margin-top: 18px;
+          font-size: 0.88rem;
+          line-height: 1.6;
+        }
+
+        .hero-summary {
+          font-size: 1.05rem;
+          margin-top: 18px;
+          line-height: 1.62;
+        }
+
+        .proof-line {
+          margin-top: 14px;
+          line-height: 1.58;
+        }
+
+        .hero-actions {
+          align-items: stretch;
+          gap: 10px;
+          margin-top: 26px;
+        }
+
+        .button-link {
+          min-width: 0;
+          flex: 1 1 136px;
+        }
+
+        .scroll-cue {
+          display: none;
+        }
+
+        .section {
+          padding: 70px var(--pad);
+        }
+
+        .section-inner {
+          display: block;
+        }
+
+        .section-kicker {
+          position: static;
+          margin-bottom: 18px;
+        }
+
+        .timeline::before {
+          left: 7px;
+        }
+
+        .timeline-item {
+          grid-template-columns: 1fr;
+          gap: 8px;
+          padding-left: 32px;
+        }
+
+        .timeline-date {
+          order: -1;
+        }
+
+        .timeline-card {
+          padding-bottom: 34px;
+        }
+
+        .skill-lane {
+          grid-template-columns: 1fr;
+          gap: 10px;
+        }
+
+        .footer-inner {
+          display: grid;
+        }
+      }
+
+      @media (max-width: 420px) {
+        .nav {
+          gap: 10px;
+        }
+
+        .nav-actions {
+          gap: 7px;
+        }
+
+        .lang-toggle button {
+          min-width: 39px;
+        }
+
+        .availability {
+          align-items: flex-start;
+          height: auto;
+          min-height: 34px;
+          margin-bottom: 18px;
+          padding: 8px 10px;
+          line-height: 1.45;
+        }
+
+        .availability::before {
+          flex: 0 0 auto;
+          margin-top: 6px;
+        }
+
+        .contact-actions {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        .mobile-portrait {
+          gap: 10px;
+          padding: 8px;
+        }
+
+        .mobile-portrait img {
+          width: 72px;
+          height: 88px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+          animation-duration: 1ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 1ms !important;
+        }
+
+        .hero-role .char {
+          opacity: 1;
+          transform: none;
+          animation: none;
+        }
+
+        .motion-ready .reveal {
+          opacity: 1;
+          filter: none;
+          transform: none;
+        }
+      }
+
+      @media print {
+        :root {
+          color-scheme: light;
+          --bg: oklch(1 0 0);
+          --surface: oklch(0.97 0 0);
+          --surface-strong: oklch(0.94 0 0);
+          --ink: oklch(0.16 0 0);
+          --ink-strong: oklch(0.08 0 0);
+          --muted: oklch(0.36 0 0);
+          --muted-soft: oklch(0.42 0 0);
+          --line: oklch(0 0 0 / 0.18);
+          --line-strong: oklch(0 0 0 / 0.26);
+        }
+
+        body {
+          background: var(--bg);
+          color: var(--ink);
+          font-size: 11pt;
+        }
+
+        body::before,
+        body::after,
+        .signal-canvas,
+        .site-header,
+        .scroll-cue {
+          display: none !important;
+        }
+
+        .hero,
+        .section {
+          min-height: auto;
+          padding: 22pt 0;
+        }
+
+        .hero-inner,
+        .section-inner,
+        .footer-inner {
+          width: 100%;
+        }
+
+        .hero-grid,
+        .section-inner,
+        .timeline-item,
+        .contact-panel {
+          display: block;
+        }
+
+        h1 {
+          max-width: none;
+          font-size: 34pt;
+        }
+
+        h2 {
+          font-size: 20pt;
+        }
+
+        .hero-actions,
+        .availability,
+        .mobile-portrait,
+        .section-kicker,
+        .timeline-node,
+        .timeline::before {
+          display: none;
+        }
+
+        .portrait-card {
+          width: 88pt;
+          margin: 0 0 12pt;
+          box-shadow: none;
+        }
+
+        .portrait-caption {
+          display: none;
+        }
+
+        .proof-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+
+        .timeline-item {
+          padding: 0 0 16pt;
+        }
+
+        .timeline-card,
+        .section-inner,
+        .footer-inner {
+          border-color: var(--line);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <canvas class="signal-canvas" id="signalCanvas" aria-hidden="true"></canvas>
+
+    <header class="site-header" id="siteHeader">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand-mark" href="#top" aria-label="Mikhail Savushkin">MS</a>
+        <div class="nav-links">
+          <a href="#about" data-i18n="nav.about"></a>
+          <a href="#experience" data-i18n="nav.experience"></a>
+          <a href="#skills" data-i18n="nav.skills"></a>
+          <a href="#education" data-i18n="nav.education"></a>
+          <a href="#contact" data-i18n="nav.contact"></a>
+        </div>
+        <div class="nav-actions">
+          <div class="lang-toggle" aria-label="Language">
+            <button type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+          </div>
+          <button class="download-button magnetic" type="button" data-print>
+            <span class="mono">PDF</span>
+            <span data-i18n="nav.download"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page" id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner hero-grid">
+          <div class="hero-copy reveal">
+            <div class="availability" data-i18n="hero.availability"></div>
+            <h1 id="hero-title" data-i18n="person.name"></h1>
+            <p class="hero-role" id="heroRole"></p>
+            <p class="hero-summary" data-i18n="hero.tagline"></p>
+            <p class="proof-line" data-i18n="hero.proof"></p>
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="button-link primary magnetic" href="#contact" data-i18n="hero.ctaContact"></a>
+              <a
+                class="button-link magnetic"
+                href="https://linkedin.com/in/mikhail-savushkin-993a33408"
+                target="_blank"
+                rel="noreferrer"
+                data-i18n="hero.ctaLinkedIn"
+              ></a>
+              <button class="button-link magnetic" type="button" data-print data-i18n="hero.ctaPdf"></button>
+            </div>
+            <div class="mobile-portrait" aria-label="Profile portrait">
+              <img
+                src="assets/mikhail-savushkin-profile.jpg"
+                alt="Mikhail Savushkin"
+                width="900"
+                height="1200"
+                decoding="async"
+              />
+              <div>
+                <span data-i18n="portrait.label"></span>
+                <strong data-i18n="portrait.caption"></strong>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-aside reveal" aria-label="Profile metadata">
+            <figure class="portrait-card">
+              <img
+                src="assets/mikhail-savushkin-profile.jpg"
+                alt="Mikhail Savushkin"
+                width="900"
+                height="1200"
+                fetchpriority="high"
+                decoding="async"
+              />
+              <figcaption class="portrait-caption">
+                <span data-i18n="portrait.label"></span>
+                <strong data-i18n="portrait.caption"></strong>
+              </figcaption>
+            </figure>
+            <dl class="meta-list">
+              <div class="meta-row">
+                <dt data-i18n="profile.locationLabel"></dt>
+                <dd data-i18n="person.location"></dd>
+              </div>
+              <div class="meta-row">
+                <dt data-i18n="profile.emailLabel"></dt>
+                <dd><a href="mailto:savushkinwork@gmail.com">savushkinwork@gmail.com</a></dd>
+              </div>
+              <div class="meta-row">
+                <dt data-i18n="profile.focusLabel"></dt>
+                <dd data-i18n="profile.focus"></dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+        <div class="scroll-cue" data-i18n="hero.scroll"></div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="section-inner">
+          <div class="section-kicker"><span>01</span><span data-i18n="sections.about"></span></div>
+          <div class="section-body reveal">
+            <h2 id="about-title" data-i18n="about.title"></h2>
+            <p class="section-lede" data-i18n="about.summary"></p>
+            <div class="proof-grid" id="proofGrid"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="section-inner">
+          <div class="section-kicker"><span>02</span><span data-i18n="sections.experience"></span></div>
+          <div class="section-body reveal">
+            <h2 id="experience-title" data-i18n="experience.title"></h2>
+            <p class="section-lede" data-i18n="experience.summary"></p>
+            <div class="timeline" id="timeline"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <div class="section-inner">
+          <div class="section-kicker"><span>03</span><span data-i18n="sections.skills"></span></div>
+          <div class="section-body reveal">
+            <h2 id="skills-title" data-i18n="skills.title"></h2>
+            <p class="section-lede" data-i18n="skills.summary"></p>
+            <div class="skill-lanes" id="skillLanes"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education" aria-labelledby="education-title">
+        <div class="section-inner">
+          <div class="section-kicker"><span>04</span><span data-i18n="sections.education"></span></div>
+          <div class="section-body reveal">
+            <h2 id="education-title" data-i18n="education.title"></h2>
+            <div class="education-panel">
+              <p id="educationText"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="section-inner">
+          <div class="section-kicker"><span>05</span><span data-i18n="sections.contact"></span></div>
+          <div class="section-body reveal">
+            <h2 id="contact-title" data-i18n="contact.title"></h2>
+            <div class="contact-panel">
+              <p class="contact-line" data-i18n="contact.line"></p>
+              <div class="contact-actions">
+                <a class="text-link" href="mailto:savushkinwork@gmail.com" data-i18n="contact.email"></a>
+                <a
+                  class="text-link"
+                  href="https://linkedin.com/in/mikhail-savushkin-993a33408"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-i18n="contact.linkedin"
+                ></a>
+                <button class="text-link" type="button" data-print data-i18n="contact.pdf"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span id="copyright"></span>
+        <span data-i18n="footer.built"></span>
+      </div>
+    </footer>
+
+    <noscript>
+      <div style="padding: 2rem; color: white; background: #0b0b0d; font-family: system-ui, sans-serif">
+        Mikhail Savushkin — AI Solutions Integrator · Backend & Automation Engineer.
+        Email: savushkinwork@gmail.com
+      </div>
+    </noscript>
+
+    <script>
+      const i18n = {
+        en: {
+          meta: {
+            title: "Mikhail Savushkin — AI Solutions Integrator",
+            description:
+              "Resume website for Mikhail Savushkin, AI Solutions Integrator, Backend and Automation Engineer based in Istanbul."
+          },
+          person: {
+            name: "Mikhail Savushkin",
+            location: "Istanbul, Türkiye"
+          },
+          nav: {
+            about: "About",
+            experience: "Experience",
+            skills: "Skills",
+            education: "Education",
+            contact: "Contact",
+            download: "Download PDF"
+          },
+          hero: {
+            availability: "Open to backend / AI roles",
+            role: "AI Solutions Integrator · Backend & Automation Engineer",
+            tagline: "I don't just write code — I build data-driven systems that kill real bottlenecks.",
+            proof:
+              "One year as a Data Scientist at Yandex is the anchor: data pipelines, analytical models, and business-facing systems thinking.",
+            ctaContact: "Contact",
+            ctaLinkedIn: "LinkedIn",
+            ctaPdf: "Download PDF",
+            scroll: "Scroll"
+          },
+          portrait: {
+            label: "Profile signal",
+            caption: "Mikhail · Istanbul"
+          },
+          profile: {
+            locationLabel: "Location",
+            emailLabel: "Email",
+            focusLabel: "Current focus",
+            focus: "LLM integrations, webhooks, backend automation"
+          },
+          sections: {
+            about: "About",
+            experience: "Experience",
+            skills: "Skills",
+            education: "Education",
+            contact: "Contact"
+          },
+          about: {
+            title: "Backend systems with a data-first pulse.",
+            summary:
+              "Backend and Automation Engineer with a Data Science background. I build AI-driven systems, integrate LLM APIs, and automate routine business processes. The data-first mindset came from Yandex; now I apply it to backend architecture, messaging workflows, and AI integrations that remove manual work."
+          },
+          proof: [
+            {
+              value: "1yr @ Yandex",
+              label: "Production data work, pipelines, analytical models, and cross-functional delivery."
+            },
+            {
+              value: "Python · Node.js · AWS",
+              label: "Backend foundations for APIs, automation, and cloud-connected systems."
+            },
+            {
+              value: "AI agents & automation",
+              label: "LLM workflows connected to real business processes through webhooks and CRMs."
+            }
+          ],
+          experience: {
+            title: "Experience that connects data, sales, and automation.",
+            summary:
+              "The through-line is practical systems work: understand the process, find the bottleneck, then build the backend or AI layer that makes the work lighter.",
+            items: [
+              {
+                role: "Backend Engineer (AI & Automation)",
+                org: "International Plus / Power International · Istanbul",
+                date: "May 2026 – Present",
+                bullets: [
+                  "Architected and implemented an AI-driven QA agent for WhatsApp sales.",
+                  "Integrated LLMs with messaging platforms via webhooks to automate sales analysis and reduce manual auditing time."
+                ]
+              },
+              {
+                role: "Medical Advisor",
+                org: "International Plus · Istanbul",
+                date: "Dec 2025 – May 2026",
+                bullets: [
+                  "Managed CRM workflows and client interactions across live sales processes.",
+                  "Turned operational knowledge into sharper requirements for AI-driven QA bots and automation."
+                ]
+              },
+              {
+                role: "Data Scientist",
+                org: "Yandex · Moscow",
+                date: "Sep 2022 – Sep 2023",
+                bullets: [
+                  "Built and maintained data pipelines for cleaning large-scale datasets.",
+                  "Developed analytical models that surfaced insights for business decisions.",
+                  "Partnered cross-functionally to translate requirements into data solutions. Stack: Python, Pandas, SQL, data visualization."
+                ]
+              }
+            ]
+          },
+          skills: {
+            title: "Core stack",
+            summary:
+              "The stack is intentionally practical: tools for moving data, connecting systems, and turning AI capabilities into reliable workflows.",
+            groups: [
+              { name: "Languages", tags: ["Python", "Node.js"] },
+              { name: "AI / ML", tags: ["LLM APIs", "AI agents", "ML tooling"] },
+              { name: "Cloud", tags: ["AWS"] },
+              { name: "Data", tags: ["Pandas", "SQL", "Data visualization", "Data pipelines"] },
+              { name: "APIs / Automation", tags: ["REST APIs", "Webhooks", "Workflow automation"] }
+            ]
+          },
+          education: {
+            title: "Education",
+            school: "Istanbul Topkapı University",
+            degree: "B.Eng., Computer Engineering",
+            dates: "Oct 2023 – Aug 2028",
+            status: "in progress"
+          },
+          contact: {
+            title: "Let's build something that removes work, not adds it.",
+            line:
+              "I am open to backend, AI integration, and automation roles where clean systems matter more than noisy demos.",
+            email: "Email",
+            linkedin: "LinkedIn",
+            pdf: "Download PDF"
+          },
+          footer: {
+            built: "Built as a single-page HTML prototype"
+          }
+        },
+        ru: {
+          meta: {
+            title: "Михаил Савушкин — интегратор AI-решений",
+            description:
+              "Сайт-резюме Михаила Савушкина: интеграция AI-решений, backend и автоматизация в Istanbul."
+          },
+          person: {
+            name: "Михаил Савушкин",
+            location: "Istanbul, Türkiye"
+          },
+          nav: {
+            about: "Обо мне",
+            experience: "Опыт",
+            skills: "Навыки",
+            education: "Образование",
+            contact: "Контакты",
+            download: "Скачать PDF"
+          },
+          hero: {
+            availability: "Открыт к backend / AI ролям",
+            role: "Интегратор AI-решений · Backend & Automation Engineer",
+            tagline: "Я не просто пишу код — я строю data-driven системы, которые убирают реальные узкие места.",
+            proof:
+              "Главный сигнал доверия — год работы Data Scientist в Yandex: data pipelines, аналитические модели и системное мышление для бизнеса.",
+            ctaContact: "Связаться",
+            ctaLinkedIn: "LinkedIn",
+            ctaPdf: "Скачать PDF",
+            scroll: "Дальше"
+          },
+          portrait: {
+            label: "Профиль",
+            caption: "Михаил · Istanbul"
+          },
+          profile: {
+            locationLabel: "Локация",
+            emailLabel: "Email",
+            focusLabel: "Фокус сейчас",
+            focus: "LLM-интеграции, webhooks, backend-автоматизация"
+          },
+          sections: {
+            about: "Обо мне",
+            experience: "Опыт",
+            skills: "Навыки",
+            education: "Образование",
+            contact: "Контакты"
+          },
+          about: {
+            title: "Backend-системы с data-first мышлением.",
+            summary:
+              "Backend и Automation Engineer с Data Science бэкграундом. Я строю AI-driven системы, интегрирую LLM APIs и автоматизирую рутинные бизнес-процессы. Data-first подход пришел из Yandex; сейчас я применяю его в backend-архитектуре, messaging workflows и AI-интеграциях, которые снимают ручную работу."
+          },
+          proof: [
+            {
+              value: "1 год @ Yandex",
+              label: "Production data work, pipelines, аналитические модели и cross-functional delivery."
+            },
+            {
+              value: "Python · Node.js · AWS",
+              label: "Backend-основа для APIs, автоматизации и cloud-connected систем."
+            },
+            {
+              value: "AI agents & automation",
+              label: "LLM workflows, подключенные к реальным бизнес-процессам через webhooks и CRM."
+            }
+          ],
+          experience: {
+            title: "Опыт на стыке данных, продаж и автоматизации.",
+            summary:
+              "Главная линия — практическая системная работа: понять процесс, найти bottleneck, затем построить backend или AI-слой, который облегчает работу.",
+            items: [
+              {
+                role: "Backend Engineer (AI & Automation)",
+                org: "International Plus / Power International · Istanbul",
+                date: "May 2026 – Present",
+                bullets: [
+                  "Спроектировал и реализовал AI-driven QA agent для WhatsApp sales.",
+                  "Интегрировал LLMs с messaging platforms через webhooks, чтобы автоматизировать sales analysis и сократить ручной аудит."
+                ]
+              },
+              {
+                role: "Medical Advisor",
+                org: "International Plus · Istanbul",
+                date: "Dec 2025 – May 2026",
+                bullets: [
+                  "Вел CRM workflows и клиентские коммуникации внутри живых sales-процессов.",
+                  "Перевел операционное понимание процесса в более точные требования для AI-driven QA bots и автоматизации."
+                ]
+              },
+              {
+                role: "Data Scientist",
+                org: "Yandex · Moscow",
+                date: "Sep 2022 – Sep 2023",
+                bullets: [
+                  "Строил и поддерживал data pipelines для очистки large-scale datasets.",
+                  "Разрабатывал аналитические модели, которые давали insights для бизнес-решений.",
+                  "Работал cross-functionally и переводил требования в data solutions. Stack: Python, Pandas, SQL, data visualization."
+                ]
+              }
+            ]
+          },
+          skills: {
+            title: "Core stack",
+            summary:
+              "Стек практичный: инструменты для перемещения данных, связи систем и превращения AI-возможностей в надежные workflows.",
+            groups: [
+              { name: "Languages", tags: ["Python", "Node.js"] },
+              { name: "AI / ML", tags: ["LLM APIs", "AI agents", "ML tooling"] },
+              { name: "Cloud", tags: ["AWS"] },
+              { name: "Data", tags: ["Pandas", "SQL", "Data visualization", "Data pipelines"] },
+              { name: "APIs / Automation", tags: ["REST APIs", "Webhooks", "Workflow automation"] }
+            ]
+          },
+          education: {
+            title: "Образование",
+            school: "Istanbul Topkapı University",
+            degree: "B.Eng., Computer Engineering",
+            dates: "Oct 2023 – Aug 2028",
+            status: "в процессе"
+          },
+          contact: {
+            title: "Давайте строить системы, которые убирают работу, а не добавляют ее.",
+            line:
+              "Я открыт к backend, AI integration и automation ролям, где чистые системы важнее шумных демо.",
+            email: "Email",
+            linkedin: "LinkedIn",
+            pdf: "Скачать PDF"
+          },
+          footer: {
+            built: "Single-page HTML prototype"
+          }
+        }
+      };
+
+      const doc = document.documentElement;
+      const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+      const $ = (selector, root = document) => root.querySelector(selector);
+      const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+
+      const escapeHtml = (value) =>
+        String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+
+      const getPath = (source, path) =>
+        path.split(".").reduce((current, key) => (current ? current[key] : undefined), source);
+
+      const setMeta = (language) => {
+        const dict = i18n[language];
+        document.title = dict.meta.title;
+        $('meta[name="description"]').setAttribute("content", dict.meta.description);
+        $('meta[property="og:title"]').setAttribute("content", dict.meta.title);
+        $('meta[property="og:description"]').setAttribute("content", dict.meta.description);
+      };
+
+      const renderCharacters = (element, text) => {
+        element.setAttribute("aria-label", text);
+        if (prefersReduced.matches) {
+          element.textContent = text;
+          return;
+        }
+        let index = 0;
+        element.innerHTML = text
+          .split(/(\s+)/)
+          .map((part) => {
+            if (/^\s+$/.test(part)) return " ";
+            const chars = Array.from(part)
+              .map((char) => `<span class="char" style="--i: ${index++}">${escapeHtml(char)}</span>`)
+              .join("");
+            return `<span class="word">${chars}</span>`;
+          })
+          .join("");
+      };
+
+      const renderProof = (items) => {
+        $("#proofGrid").innerHTML = items
+          .map(
+            (item) => `
+              <article class="proof-chip">
+                <strong>${escapeHtml(item.value)}</strong>
+                <span>${escapeHtml(item.label)}</span>
+              </article>
+            `
+          )
+          .join("");
+      };
+
+      const renderTimeline = (items) => {
+        $("#timeline").innerHTML = items
+          .map(
+            (item) => `
+              <article class="timeline-item">
+                <span class="timeline-node" aria-hidden="true"></span>
+                <div class="timeline-date">${escapeHtml(item.date)}</div>
+                <div class="timeline-card">
+                  <h3>${escapeHtml(item.role)}</h3>
+                  <span class="timeline-org">${escapeHtml(item.org)}</span>
+                  <ul class="timeline-list">
+                    ${item.bullets.map((bullet) => `<li>${escapeHtml(bullet)}</li>`).join("")}
+                  </ul>
+                </div>
+              </article>
+            `
+          )
+          .join("");
+      };
+
+      const renderSkills = (groups) => {
+        $("#skillLanes").innerHTML = groups
+          .map(
+            (group) => `
+              <article class="skill-lane">
+                <h3>${escapeHtml(group.name)}</h3>
+                <div class="skill-tags">
+                  ${group.tags.map((tag) => `<span class="skill-tag">${escapeHtml(tag)}</span>`).join("")}
+                </div>
+              </article>
+            `
+          )
+          .join("");
+      };
+
+      const renderEducation = (education) => {
+        $("#educationText").innerHTML = `<strong>${escapeHtml(education.school)}</strong> — ${escapeHtml(
+          education.degree
+        )} · ${escapeHtml(education.dates)} (${escapeHtml(education.status)}).`;
+      };
+
+      const applyLanguage = (language) => {
+        const lang = i18n[language] ? language : "en";
+        const dict = i18n[lang];
+        doc.lang = lang;
+        setMeta(lang);
+        $$("[data-i18n]").forEach((element) => {
+          const value = getPath(dict, element.dataset.i18n);
+          if (typeof value === "string") element.textContent = value;
+        });
+        renderCharacters($("#heroRole"), dict.hero.role);
+        renderProof(dict.proof);
+        renderTimeline(dict.experience.items);
+        renderSkills(dict.skills.groups);
+        renderEducation(dict.education);
+        $("#copyright").textContent = `© ${new Date().getFullYear()} ${dict.person.name}`;
+        $$("[data-lang]").forEach((button) => {
+          button.setAttribute("aria-pressed", String(button.dataset.lang === lang));
+        });
+        localStorage.setItem("resume-language", lang);
+        setupObservers();
+      };
+
+      let revealObserver;
+      let timelineObserver;
+
+      const setupObservers = () => {
+        if (revealObserver) revealObserver.disconnect();
+        if (timelineObserver) timelineObserver.disconnect();
+        $$(".reveal").forEach((element) => element.classList.remove("is-visible"));
+        $$(".timeline-item").forEach((element) => element.classList.remove("is-active"));
+
+        revealObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                revealObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.16, rootMargin: "0px 0px -8% 0px" }
+        );
+
+        timelineObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              entry.target.classList.toggle("is-active", entry.isIntersecting);
+            });
+          },
+          { threshold: 0.48, rootMargin: "-18% 0px -34% 0px" }
+        );
+
+        $$(".reveal").forEach((element) => revealObserver.observe(element));
+        $$(".timeline-item").forEach((element) => timelineObserver.observe(element));
+      };
+
+      const setupHeader = () => {
+        const header = $("#siteHeader");
+        const update = () => header.classList.toggle("is-scrolled", window.scrollY > 28);
+        update();
+        window.addEventListener("scroll", update, { passive: true });
+      };
+
+      const setupPrint = () => {
+        $$("[data-print]").forEach((button) => {
+          button.addEventListener("click", () => window.print());
+        });
+      };
+
+      const setupLanguageToggle = () => {
+        $$("[data-lang]").forEach((button) => {
+          button.addEventListener("click", () => applyLanguage(button.dataset.lang));
+        });
+      };
+
+      const setupMagnetic = () => {
+        if (!window.matchMedia("(pointer: fine)").matches || prefersReduced.matches) return;
+        $$(".magnetic").forEach((element) => {
+          element.addEventListener("pointermove", (event) => {
+            const rect = element.getBoundingClientRect();
+            const x = (event.clientX - rect.left - rect.width / 2) * 0.12;
+            const y = (event.clientY - rect.top - rect.height / 2) * 0.12;
+            element.style.transform = `translate(${x}px, ${y}px)`;
+          });
+          element.addEventListener("pointerleave", () => {
+            element.style.transform = "";
+          });
+        });
+      };
+
+      const setupCanvas = () => {
+        const canvas = $("#signalCanvas");
+        const context = canvas.getContext("2d");
+        const reduced = prefersReduced.matches;
+        let width = 0;
+        let height = 0;
+        let dpr = 1;
+        let nodes = [];
+        let frame = 0;
+        let animationId = 0;
+        const pointer = { x: -1000, y: -1000 };
+
+        const random = (() => {
+          let seed = 2048;
+          return () => {
+            seed += 0x6d2b79f5;
+            let t = seed;
+            t = Math.imul(t ^ (t >>> 15), t | 1);
+            t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+            return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+          };
+        })();
+
+        const resize = () => {
+          dpr = Math.min(window.devicePixelRatio || 1, 2);
+          width = window.innerWidth;
+          height = window.innerHeight;
+          canvas.width = Math.floor(width * dpr);
+          canvas.height = Math.floor(height * dpr);
+          canvas.style.width = `${width}px`;
+          canvas.style.height = `${height}px`;
+          context.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+          if (animationId) cancelAnimationFrame(animationId);
+
+          const count = Math.max(42, Math.min(92, Math.round((width * height) / 22000)));
+          nodes = Array.from({ length: count }, (_, index) => ({
+            x: random() * width,
+            y: random() * height,
+            vx: (random() - 0.5) * 0.22,
+            vy: (random() - 0.5) * 0.22,
+            r: index % 7 === 0 ? 2 : 1.25,
+            warm: index % 5 === 0
+          }));
+          draw();
+        };
+
+        const draw = () => {
+          context.clearRect(0, 0, width, height);
+          context.globalCompositeOperation = "source-over";
+
+          const sweep = reduced ? width * 0.36 : (frame * 0.48) % (width + 260) - 130;
+          const pointerActive = pointer.x >= 0 && pointer.x <= width && pointer.y >= 0 && pointer.y <= height;
+
+          if (pointerActive && !reduced) {
+            const halo = context.createRadialGradient(pointer.x, pointer.y, 0, pointer.x, pointer.y, 260);
+            halo.addColorStop(0, "rgba(240, 166, 60, 0.12)");
+            halo.addColorStop(0.36, "rgba(94, 200, 194, 0.055)");
+            halo.addColorStop(1, "rgba(94, 200, 194, 0)");
+            context.fillStyle = halo;
+            context.fillRect(0, 0, width, height);
+          }
+
+          for (let i = 0; i < nodes.length; i += 1) {
+            const a = nodes[i];
+            if (!reduced) {
+              a.x += a.vx;
+              a.y += a.vy;
+              if (a.x < -20) a.x = width + 20;
+              if (a.x > width + 20) a.x = -20;
+              if (a.y < -20) a.y = height + 20;
+              if (a.y > height + 20) a.y = -20;
+            }
+
+            for (let j = i + 1; j < nodes.length; j += 1) {
+              const b = nodes[j];
+              const dx = a.x - b.x;
+              const dy = a.y - b.y;
+              const distance = Math.hypot(dx, dy);
+              const linkRange = width < 520 ? 128 : 164;
+              if (distance < linkRange) {
+                const midX = (a.x + b.x) / 2;
+                const midY = (a.y + b.y) / 2;
+                const pointerDistance = pointerActive ? Math.hypot(midX - pointer.x, midY - pointer.y) : Infinity;
+                const pointerBoost = Math.max(0, 1 - pointerDistance / 240);
+                const opacity = (1 - distance / linkRange) * 0.18;
+                const sweepBoost = Math.max(0, 1 - Math.abs(midX - sweep) / 170) * 0.26;
+                const alpha = Math.min(0.82, opacity + sweepBoost + pointerBoost * 0.5);
+                const interactiveColor =
+                  (i + j) % 3 === 0 ? `rgba(94, 200, 194, ${alpha})` : `rgba(240, 166, 60, ${alpha})`;
+                context.strokeStyle =
+                  pointerBoost > 0.04 ? interactiveColor : `rgba(237, 232, 225, ${alpha})`;
+                context.lineWidth = 1 + pointerBoost * 1.4 + sweepBoost * 0.2;
+                context.shadowBlur = pointerBoost * 16;
+                context.shadowColor = (i + j) % 3 === 0 ? "rgba(94, 200, 194, 0.55)" : "rgba(240, 166, 60, 0.58)";
+                context.beginPath();
+                context.moveTo(a.x, a.y);
+                context.lineTo(b.x, b.y);
+                context.stroke();
+                context.shadowBlur = 0;
+              }
+            }
+          }
+
+          nodes.forEach((node) => {
+            const pointerDistance = pointerActive ? Math.hypot(node.x - pointer.x, node.y - pointer.y) : Infinity;
+            const pointerBoost = Math.max(0, 1 - pointerDistance / 190);
+            const sweepBoost = Math.max(0, 1 - Math.abs(node.x - sweep) / 150);
+            const alpha = Math.min(0.95, 0.34 + pointerBoost * 0.5 + sweepBoost * 0.38);
+            context.shadowBlur = pointerBoost * 18 + sweepBoost * 4;
+            context.shadowColor = node.warm ? "rgba(240, 166, 60, 0.65)" : "rgba(94, 200, 194, 0.58)";
+            context.fillStyle = node.warm ? `rgba(240, 166, 60, ${alpha})` : `rgba(94, 200, 194, ${alpha * 0.82})`;
+            context.beginPath();
+            context.arc(node.x, node.y, node.r + pointerBoost * 1.6, 0, Math.PI * 2);
+            context.fill();
+            context.shadowBlur = 0;
+          });
+
+          frame += 1;
+          if (!reduced) animationId = requestAnimationFrame(draw);
+        };
+
+        window.addEventListener("resize", resize, { passive: true });
+        window.addEventListener(
+          "pointermove",
+          (event) => {
+            pointer.x = event.clientX;
+            pointer.y = event.clientY;
+          },
+          { passive: true }
+        );
+        window.addEventListener(
+          "pointerleave",
+          () => {
+            pointer.x = -1000;
+            pointer.y = -1000;
+          },
+          { passive: true }
+        );
+        resize();
+      };
+
+      document.body.classList.add("motion-ready");
+      setupHeader();
+      setupPrint();
+      setupLanguageToggle();
+      setupMagnetic();
+      setupCanvas();
+      applyLanguage(localStorage.getItem("resume-language") || "en");
+    </script>
+  </body>
+</html>
