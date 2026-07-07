@@ -17,7 +17,7 @@
 - 🧠 Data-first mindset from **1 year as a Data Scientist at Yandex**
 - 🤖 I build AI-driven systems: LLM integrations, webhooks, backend automation
 - 🔧 Daily driver: **VS Code**
-- 📄 **[Resume](https://m4rkellkka.github.io/resume/)** · 💼 **[LinkedIn](https://linkedin.com/in/mikhail-savushkin-993a33408)**
+- 📄 **[Resume](https://m4rkellkka.github.io/m4rkellkka/)** · 💼 **[LinkedIn](https://linkedin.com/in/mikhail-savushkin-993a33408)**
 
 ---
 
