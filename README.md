@@ -1,7 +1,3 @@
-<div align="right">
-  <a href="README.ru.md">🇷🇺 Русский</a>
-</div>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=m4rkellkka&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Backend%20Automation%20Engineer%20%7C%20QA%20Engineer%20in%20Progress&descSize=16&descAlignY=58" alt="header" />
 
 <p align="center">
@@ -16,12 +12,12 @@
 
 ## 👨‍💻 About Me
 
-- 🎓 Student at **Topkapi University**
-- 💼 **Full Stack Developer** at **International plus**
-- 💡 I enjoy working on whatever catches my interest and I'm not afraid to experiment
-- 🎯 Currently diving deep into **QA Engineering** to improve software quality
+- 🎓 Computer Engineering student at **Istanbul Topkapı University**
+- 💼 **Backend & Automation Engineer (AI)** at **International Plus**
+- 🧠 Data-first mindset from **1 year as a Data Scientist at Yandex**
+- 🤖 I build AI-driven systems: LLM integrations, webhooks, backend automation
 - 🔧 Daily driver: **VS Code**
-- 📄 Check out my **[Resume](https://m4rkellkka.github.io/resume/)**
+- 📄 **[Resume](https://m4rkellkka.github.io/resume/)** · 💼 **[LinkedIn](https://linkedin.com/in/mikhail-savushkin-993a33408)**
 
 ---
 
@@ -29,9 +25,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/LLM%20APIs-000000?style=for-the-badge&logo=openai&logoColor=white" alt="LLM APIs" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
 </p>
 
 ---
